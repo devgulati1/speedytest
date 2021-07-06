@@ -1,0 +1,29 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #171717;
+    box-shadow: 0px 1px 4px black;
+ 
+  z-index: 99;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.flashlogo{
+    margin-left: 10px;
+    height:40px
+}
+.flash-logo-text{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #e7e7e7;
+    font-family: "poppins",cursive;
+    margin: 0 10px;
+}
+.nav-right{
+    margin-right: 20px;
+    color: white;
+}

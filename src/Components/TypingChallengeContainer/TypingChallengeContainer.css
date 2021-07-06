@@ -1,0 +1,16 @@
+.typing-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
+.detail-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.main-type-container{
+    display: flex;
+    flex-grow: 1;
+}
