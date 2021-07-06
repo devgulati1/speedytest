@@ -5,7 +5,7 @@ import Nav from "./Components/Nav/Nav"
 import "./App.css"
 import Footer from "./Components/Footer/Footer"
 import ChallengeSection from "./Components/ChallengeSection/ChallengeSection"
-import { SAMPLE_PARAGRAPHS } from "./../../data/sampleParagraphs";
+import { SAMPLE_PARAGRAPHS } from "./Data/SamplePara";
 
 
 const totalTime=60;
@@ -64,7 +64,7 @@ class App extends  React.Component{
 
   
   componentDidMount(){
-    this.fetchApi();
+    this.fetchNewParagraphFallback();
      
 
    
