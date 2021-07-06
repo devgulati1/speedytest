@@ -5,7 +5,7 @@ import Nav from "./Components/Nav/Nav"
 import "./App.css"
 import Footer from "./Components/Footer/Footer"
 import ChallengeSection from "./Components/ChallengeSection/ChallengeSection"
-import {SAMPLE_PARAGRAPHS} from "./../src/Data/SamplePara"
+import { SAMPLE_PARAGRAPHS } from "./../../data/sampleParagraphs";
 
 
 const totalTime=60;
