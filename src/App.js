@@ -39,7 +39,7 @@ class App extends  React.Component{
     this.setState({
         ...DefaultState,
         testInfo,
-        selectedParagraph: data,
+        selectedPara: data,
     });
 };
 
