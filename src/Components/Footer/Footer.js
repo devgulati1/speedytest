@@ -3,7 +3,7 @@ import "./Footer.css"
 const Footer =()=>{
     return <div className="footer-container">
  <h3 className="footer-head">
- ©2021 By Dev Gulati 
+ ©2022 By Dev Gulati 
  </h3>
     </div>
 }
